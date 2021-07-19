@@ -1,14 +1,17 @@
 # node-bcrypt
 
 `npm init -y`
+
 `npm i -S fastify`
+
 `npm i -S bcrypt`  
 
 `npm run dev`
 
-or Dockerfile
+Dockerfile
 
 `docker build . -t nodebcrypt`
+
 `docker run -dp 1400:4000 nodebcrypt`
 
 curl http://localhost:4000/bcrypt/:password
