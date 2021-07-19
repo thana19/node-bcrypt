@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/thana19/node-bcrypt#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "fastify": "^3.19.1",
     "nodemon": "^2.0.12"
   }
