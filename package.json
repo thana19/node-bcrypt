@@ -1,0 +1,25 @@
+{
+  "name": "bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thana19/node-bcrypt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thana19/node-bcrypt/issues"
+  },
+  "homepage": "https://github.com/thana19/node-bcrypt#readme",
+  "dependencies": {
+    "fastify": "^3.19.1",
+    "nodemon": "^2.0.12"
+  }
+}
