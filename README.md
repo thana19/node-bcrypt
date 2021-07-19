@@ -14,7 +14,7 @@ Dockerfile
 
 `docker run -dp 1400:4000 nodebcrypt`
 
-curl http://localhost:4000/bcrypt/:password
+`curl http://localhost:4000/bcrypt/:password`
 
 E.g.
 `curl http://localhost:4000/bcrypt/thana`
