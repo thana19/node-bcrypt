@@ -1,10 +1,10 @@
 # node-bcrypt
 
-# npm init -y 
+npm init -y 
 
-# npm i -S fastify 
+npm i -S fastify 
 
-# npm i -S bcrypt  
+npm i -S bcrypt  
 
 curl http://localhost:4000 
 OK
