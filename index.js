@@ -15,12 +15,12 @@ app.get('/', (request, reply) => {
 
 app.get('/bcrypt/:password', async (request, reply) => {
     const { password } = request.params
-    console.log('password ->', password)
+    // console.log('password ->', password)
 
     const setRounds = 5
     const salt = await bcrypt.genSalt(setRounds)  
     const passwordHashed = await bcrypt.hash(password, salt)
-    console.log('passwordHashed ->', passwordHashed)
+    // console.log('passwordHashed ->', passwordHashed)
 
     reply.send(passwordHashed)
 })
