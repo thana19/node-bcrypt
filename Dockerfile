@@ -7,6 +7,7 @@ COPY ./package.json ./
 
 COPY . .
 
+#Rebuild bcrypt After bpm insatll
 RUN apk add --no-cache make gcc g++ python && \
   npm install && \
   npm rebuild bcrypt --build-from-source && \
